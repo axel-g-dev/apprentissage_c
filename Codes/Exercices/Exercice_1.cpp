@@ -1,8 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int main() { // Ou int main(int argc , char* argv [])
-    cout << "Hello world!" << endl;
-    // Ou std::cout << "Hello World!\n"; si on supprime la ligne 2
+int main() { 
+    string prenom;
+    cout << "Quel est votre prénom ?" << endl;
+    cin >> prenom;
+    cout << "Hello " << prenom << "!" << endl;
 return 0;
 }
