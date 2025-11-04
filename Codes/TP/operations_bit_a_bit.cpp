@@ -11,6 +11,5 @@ int main (){
         cout << (a << 1) << endl;
         cout << (a << 3) << endl;
         cout << (a >> 1) << endl;
-        return 0;
-    
+        return 0;  
 }
