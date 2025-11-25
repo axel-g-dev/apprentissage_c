@@ -1,7 +1,7 @@
-#ifndef CERCLE_H
-#define CERCLE_H
+#ifndef LIBCERCLE_H
+#define LIBCERCLE_H
 
-double peri(double r); 
+double peri(double r);
 double surf(double r);
 
 #endif
